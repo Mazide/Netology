@@ -42,6 +42,7 @@ class ProfileViewController: UIViewController {
         
         // Создаем detailsViewController
         let detailsViewController = DetailsInfoViewController()
+        detailsViewController.someInfo = "some info"
         
         // Добавлем detailsViewController на navigationController
         navigationController?.pushViewController(detailsViewController, animated: true)
